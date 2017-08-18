@@ -23,12 +23,12 @@
 
 //    NSAssert(password.length, @"密码为空");
     
-        NSDictionary *dict = @{
-                               @"userName": @"李露鑫",
-                               @"password": password
-                               };
-        NSLog(@"dict is : %@", dict);
-    
+//        NSDictionary *dict = @{
+//                               @"userName": @"李露鑫",
+//                               @"password": password
+//                               };
+//        NSLog(@"dict is : %@", dict);
+//    
 //        NSData *data = nil;
 //        NSError *error;
 //        NSDictionary *orginDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
@@ -73,7 +73,9 @@
 //        [attributedStr insertAttributedString:[[NSAttributedString alloc] initWithString:@"B"] atIndex:1];
 //        [attributedStr insertAttributedString:[[NSAttributedString alloc] initWithString:@"C"] atIndex:2];
 //        NSLog(@"替换前字符串长度: %@", attributedStr);
-//    
+//
+    
+    
 //        NSLog(@"====%s", class_getName([attributedStr class]));
 //        NSLog(@"length: %ld", (long)attributedStr.length);
 //        [attributedStr replaceCharactersInRange:NSMakeRange(10, 9) withString:@"a"];
@@ -108,12 +110,16 @@
 //        NSLog(@"className: %s", class_getName([obj class]));
 //        NSLog(@"长度测试: %ld", [obj integerValue]);
     
-//        UISearchBar *searchBar = [[UISearchBar alloc] init];
-//        searchBar.returnKeyType = UIReturnKeySearch;
-//    
-//        id obj = [[NSNull alloc] init];
-//        NSLog(@"class name: %s", class_getName([obj class]));
-//        NSLog(@"length: %ld", (long)[obj length]);
+        UISearchBar *searchBar = [[UISearchBar alloc] init];
+        searchBar.returnKeyType = UIReturnKeySearch;
+    
+        id obj = [[NSNull alloc] init];
+        NSLog(@"class name: %s", class_getName([obj class]));
+        NSLog(@"length: %ld", (long)[obj length]);
+    
+    NSLog(@"测试依稀a");
+
+    
 }
 
 
